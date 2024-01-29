@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <div class="sidebar">
-        <nav class="sidebar__navigation">
+    <div class="lateral">
+        <nav class="lateral__navegacao">
             <div class="logo">
                 <a href="">
                     <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
@@ -54,7 +54,7 @@
             <div class="biblioteca__conteudo">
                 <button class="biblioteca__botao">
                     <span class="fas fa-book"></span>
-                    <span>Sua biblioteca</span>
+                    <span class="biblioteca__botao__titulo">Sua biblioteca</span>
                 </button>
                 <span class="fa fa-plus"></span>
             </div>
@@ -89,24 +89,31 @@
                     <button class="seta-direita">
                         <img src="./src/assets/icons/small-right.png" alt="Seta direita">
                     </button>
-                    <div class="cabecalho__procurar">
-                        <img src="./src/assets/icons/search.png" alt="">
-                        <input id="procura-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
-                    </div>
-                    <div class="cabecalho__entrar">
-                        <button class="inscrever">Inscreva-se</button>
-                        <button class="entrar">Entrar</button>
-                    </div>                    
+                </div>
+                <div class="cabecalho__procurar">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="procura-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                <div class="cabecalho__entrar">
+                    <button class="inscrever">Inscreva-se</button>
+                    <button class="entrar">Entrar</button>
                 </div>
             </nav>
         </div>
+        <section class="sessao-principal">
+            <div class="sessao-principal__conteudo">
+                <span class="titulo">Boa tarde</span>
+                <span class="subtitulo">Navegar por todas as seções</span>
+            </div>
+        </section>
+        
     </main>
 
     <footer class="rodape">
         <div class="rodape__conteudo">
             <span class="rodape-titulo">Testar o Premium de graça</span>
             <span class="rodape-subtitulo">Inscreva-se para curtir música ilimitada e podcasts só com anúncios. Não
-                precisa de cartão de crédito.</span>            
+                precisa de cartão de crédito.</span>
         </div>
         <div class="rodape__conteudo">
             <button class="rodape__botao">Inscreva-se grátis</button>

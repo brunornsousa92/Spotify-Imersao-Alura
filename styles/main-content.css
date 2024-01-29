@@ -2,7 +2,7 @@
 
 .principal-conteudo {
     max-width: 80vw;
-    height: 100vh;
+    height: 9vh;
     margin-left: 320px;
     margin-right: 56px;
 }
@@ -65,7 +65,7 @@
 .cabecalho__procurar input {
     background: transparent;
     border: none;
-    padding: 0px 100px 0 12px;
+    padding: 0px 100px 0px 12px;
     color: #fff;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -79,6 +79,7 @@
     font-weight: 700;
     background-color:  transparent;
     margin-right: 32px;
+    border: none;
 }
 
 .cabecalho__entrar .entrar {
@@ -88,4 +89,35 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.sessao-principal {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.sessao-principal__conteudo {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    gap: 20px;
+}
+
+.sessao-principal .sessao-principal__conteudo .titulo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    font-family: var(--font-dm-sans);
+}
+
+.sessao-principal .sessao-principal__conteudo .subtitulo {
+    color: #fff;
+    font-weight: 700;
+    font-family: var(--font-dm-sans);
 }
